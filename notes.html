@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Sharing - Campus Connect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Notes Sharing</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="forum.html">Forum</a>
+            <a href="events.html">Events</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Upload & Share Notes</h2>
+        <p>Use Google Drive links to share notes.</p>
+        <input type="text" id="noteTitle" placeholder="Title">
+        <input type="url" id="noteLink" placeholder="Google Drive Link">
+        <button onclick="addNote()">Add Note</button>
+        <h2>Available Notes</h2>
+        <ul id="notesList"></ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
